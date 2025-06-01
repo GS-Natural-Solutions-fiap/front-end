@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <title>Global Solution - GeoAlert</title>
+
+  <style>
+    @font-face {
+        font-family: gotham-ligth;
+        src: url(fonts/Gotham-Light.otf);
+    }
+
+    @font-face {
+        font-family: gotham-medium;
+        src: url(fonts/gotham-htf-medium.otf);
+    }
+
+    @font-face {
+        font-family: gotham-bold;
+        src: url(fonts/Gotham-Bold.otf);
+    }
+</style>
 </head>
-<body>
-    
-</body>
+  <body>
+    <nav class="nav">
+      <div class="logo-nav">
+        <a href="index.html"><img class="logo-geoalert" src="images/geoalert-logo.svg" alt=""></a>
+        <h1 class="logo-name">GeoAlert</h1>
+      </div>
+      <ul class="nav-links">
+          <li><a href="#">Mapa em Tempo Real</a></li>
+          <li><a href="#">Dicas de Prevenção</a></li>
+          <li><a href="#">Registrar Ocorrencia</a></li>
+          <li><a href="#">Rede Solidária</a></li>
+          <li><a href="#">Registrar Ocorrencia</a></li>
+          <li><a href="#">Contatos</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+    </nav>
+    <section class="header">
+      <div class="conteudo-header">
+        <div class="textos-header">
+          <h1 class="titulo-header">SOLUÇÕES EM TEMPO REAL <br> PARA UM MUNDO MAIS <br> RESILIENTE</h1>
+          <p class="paragrafo-header">Em um mundo onde os eventos climáticos extremos <br> desafiam nossos limites, surge uma nova fronteira <br> de esperança. <br> A GeoAlert não é apenas um sistema <br> – é um compromisso com a vida. <br> Nossa missão é diminuir os impactos causados por <br> eventos extremos da natureza e evitar  <br> danos maiores.</p>
+        </div>
+
+        <div class="imagem-world">
+          <img class="world" src="images/world.svg
+          " alt="">
+        </div>
+      </div>
+      <div class="scroll">
+        <a class="scroll" href="#solucao">
+          <div class="circle-scroll">
+          <div class="arrow"></div>
+
+        </a>
+      </div>
+    </section>
+
+
+
+  <section id="solucao" class="solution">
+      <div class="container">
+        <h2 class="section-title">COMO A GEOALERT FUNCIONA?</h2>
+        <div class="solution-steps">
+          <div class="step">
+              <div class="step-icon">
+                  <img src="images/icon-pesssoas.svg" alt="">
+              </div>
+              <h3>ENVOLVIMENTO COMUNITÁRIO</h3>
+              <p class="textos-solution">Plataforma colaborativa para cidadãos reportarem problemas e oferecerem ajuda.</p>
+          </div>
+          <div class="step">
+            <div class="step-icon">
+                <img src="images/icon-escudo.svg" alt="">
+            </div>
+            <h3>DASHBOARD DE CRISES</h3>
+            <p class="textos-solution">Controle centralizado para tomada de decisão em emergências.</p>
+          </div>
+          <div class="step">
+              <div class="step-icon">
+                  <img src="images/icon-mapa.svg" alt="">
+              </div>
+              <h3>MAPAS DE RISCO DINÂMICOS</h3>
+              <p class="textos-solution">Visualização interativa de áreas afetadas.</p>
+          </div>
+            <div class="step">
+                <div class="step-icon">
+                    <img src="images/icon-perigo.svg" alt="">
+                </div>
+                <h3>ALERTAS PRECOCES</h3>
+                <p class="textos-solution">Sistemas de aviso para enchentes, incêndios, tempestades e secas..</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
 </html>
