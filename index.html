@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <title>Global Solution - GeoAlert</title>
 
   <style>
@@ -104,6 +105,55 @@
         </div>
         </div>
     </section>
-    <script src="js/script.js"></script>
+
+      <main>
+    <section class="sessao-mapa" id="mapa-section">
+      <h2>MAPA INTERATIVO DE OCORRÊNCIAS E ÁREAS DE RISCO</h2>
+      <div id="mapa"></div>
+      <div id="mapa-legenda">
+        <span><img src="images/calor.svg" alt="Calor" /> Calor Extremo</span>
+        <span><img src="images/terremoto.svg" alt="Terremoto" /> Terremoto</span>
+        <span><img src="images/enchente.svg" alt="Enchente" /> Enchente</span>
+        <span><img src="images/outros.svg" alt="Outro" /> Outro</span>
+      </div>
+    </section>
+
+    <section id="form-section">
+      <h2>REGISTRAR OCORRÊNCIA</h2>
+      <div class="conteudo-ocorrencia">
+        <form id="form-ocorrencia">
+        <label for="tipo">Tipo de acontecimento:</label>
+        <select id="tipo" required>
+          <option value="">Selecione</option>
+          <option value="calor">Calor Extremo</option>
+          <option value="terremoto">Terremoto</option>
+          <option value="enchente">Enchente</option>
+          <option value="outro">Outro</option>
+        </select>
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" rows="2" required placeholder="Explique o ocorrido"></textarea>
+        <label for="foto">Foto (opcional):</label>
+        <input type="file" id="foto" accept="image/*">
+        <input type="hidden" id="lat">
+        <input type="hidden" id="lng">
+        <div id="coordenadas-info">Clique no mapa para marcar a localização.</div>
+        <button type="submit">Registrar Ocorrência</button>
+        <p id="form-msg"></p>
+      </form>
+      <img class="img-arvore" src="images/img-arvore.svg" alt="">
+      </div>
+      
+    </section>
+
+    <section id="ocorrencias-section">
+      <h2>OCORRÊNCIAS RECENTES</h2>
+      <div id="lista-ocorrencias"></div>
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="js/script.js"></script>
+
   </body>
 </html>

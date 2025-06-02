@@ -129,3 +129,15 @@
                 flex-direction: column;
             }
         }
+
+/* SESSÃO MAPA */
+
+  @media (max-width: 800px) {
+    main { padding: 0 0.2em; }
+    #mapa { height: 230px; min-height: 230px; }
+    .dicas-container { flex-direction: column; }
+
+    .img-arvore {
+      display: none;
+    }
+  }
