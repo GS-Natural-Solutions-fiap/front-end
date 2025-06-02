@@ -260,113 +260,9 @@ html, body {
 
 
 
-/* NAV BAR */
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 60px;
-  width: 100%;
-  color: white;
-  position: fixed;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
-.logo-name {
-  color: #000;
-  font-family: gotham-medium;
-  font-size: 45px;
-}
-
-.logo-nav {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-.logo-geoalert {
-  width: 60px;
-}
-
-.nav-links a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  padding: 10px;
-  display: block;
-  transition: opacity 0.5s ease;
-  font-family: gotham-ligth;
-  font-size: 50px;
-}
-
-.hamburger {
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 10px;
-}
-
-.hamburger span {
-  display: block;
-  width: 50px;
-  height: 2px;
-  background: black;
-  margin: 12px 0;
-  transition: all 0.3s ease;
-}
-
-.nav-links {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #ffffff;
-  width: 100%;
-  text-align: start;
-  padding: 300px 50px;
-  height: 100vh;
-  margin: 0;
-  justify-items: center;
-  transition: transform 0.3s ease;
-  transform: translateX(100%);
-}
-
-.nav-links.active {
-  transform: translateX(0);
-}
-
-.nav-links a:hover {
-  opacity: 0.8;
-}
-
-
-.hamburger.active span:nth-child(1) {
-  transform: rotate(45deg) translate(10px, 10px);
-}
-
-.hamburger.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(9px, -10px);
-}
-
-.text-decoration {
-  text-decoration: none;
-}
-
-
-
-/* INTEGRANTES */
-
 .integrantes {
   background-color: #fb2b85;
-  padding: 70px 96px;
+  padding: 150px 96px 50px 96px;
 }
 
 .integrante-um-joao {
@@ -422,20 +318,20 @@ html, body {
   color: rgb(0, 0, 0);
   margin-bottom: 15px;
   font-size: 64px;
-  font-family: font-gotham;
+  font-family: gotham-medium;
 }
 
 .sub-titulo {
   color: rgb(0, 0, 0);
   margin-bottom: 30px;
   font-size: 32px;
-  font-family: font-gotham;
+  font-family: gotham-bold;
 }
 
 .biografia {
   color: rgb(0, 0, 0);
   font-size: 16px;
-  font-family:  sans-serif;
+  font-family: gotham-ligth;
 }
 
 .integrante-dois-murilo {
@@ -491,6 +387,7 @@ html, body {
             margin-bottom: 25px;
             position: relative;
             padding-bottom: 12px;
+            
         }
         
         .footer-section h3:after {
