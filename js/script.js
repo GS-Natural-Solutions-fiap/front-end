@@ -143,7 +143,15 @@ const icons = {
     {
       titulo: "Solidariedade",
       texto: "Ofereça ajuda a vizinhos e pessoas vulneráveis. Compartilhe informações e recursos de forma segura."
-    }
+    },
+    {
+      titulo: "QUEIMADAS",
+      texto: "Evite queimar lixo, não solte balões e denuncie focos de incêndio. Proteja-se da fumaça, mantendo portas e janelas fechadas."
+    },
+    {
+      titulo: "DESLIZAMENTO",
+      texto: "Fique atento a rachaduras e inclinação de postes ou árvores. Em caso de risco, saia imediatamente e avise a defesa civil."
+    },
   ];
   function renderDicas() {
     const container = document.getElementById('dicas-container');

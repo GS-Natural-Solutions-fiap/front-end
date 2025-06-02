@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
+   <link rel="stylesheet" href="styles/mobile.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <title>Global Solution - GeoAlert</title>
 
@@ -108,7 +108,7 @@
 
       <main>
     <section class="sessao-mapa" id="mapa-section">
-      <h2>MAPA INTERATIVO DE OCORRÊNCIAS E ÁREAS DE RISCO</h2>
+      <h2 class="titulo-mapa">MAPA INTERATIVO DE OCORRÊNCIAS <br> E ÁREAS DE RISCO</h2>
       <div id="mapa"></div>
       <div id="mapa-legenda">
         <span><img src="images/calor.svg" alt="Calor" /> Calor Extremo</span>
@@ -119,7 +119,7 @@
     </section>
 
     <section id="form-section">
-      <h2>REGISTRAR OCORRÊNCIA</h2>
+      <h2 class="titulo-form">REGISTRAR OCORRÊNCIA</h2>
       <div class="conteudo-ocorrencia">
         <form id="form-ocorrencia">
         <label for="tipo">Tipo de acontecimento:</label>
@@ -146,11 +146,47 @@
     </section>
 
     <section id="ocorrencias-section">
-      <h2>OCORRÊNCIAS RECENTES</h2>
+      <h2 class="titulo-form">OCORRÊNCIAS RECENTES</h2>
       <div id="lista-ocorrencias"></div>
     </section>
-
   </main>
+
+  <section class="dicas" id="dicas">
+    <div class="container">
+      <h2 class="titulo-secao-dicas">DICAS DE PREVENÇÃO E SEGURANÇA</h2>
+        <div class="dicas-steps">
+
+          <div class="card-dicas">
+              <h3 class="titulo-card-dicas">CALOR EXTREMO</h3>
+              <p class="textos-dicas">Hidrate-se sempre, evite exposição ao sol entre 10h e 16h, use roupas leves e busque ambientes ventilados.</p>
+          </div>
+
+          <div class="card-dicas">
+            <h3 class="titulo-card-dicas">TERREMOTO</h3>
+            <p class="textos-dicas">Durante um tremor, proteja-se sob móveis resistentes, afaste-se de janelas e, após o evento, vá para áreas abertas e seguras.</p>
+          </div>
+
+          <div class="card-dicas">
+              <h3 class="titulo-card-dicas">MAPAS DE RISCO DINÂMICOS</h3>
+              <p class="textos-dicas">Visualização interativa de áreas afetadas.</p>
+          </div>
+
+            <div class="card-dicas">
+                <h3 class="titulo-card-dicas">ENCHENTE</h3>
+                <p class="textos-dicas">Não transite em áreas alagadas, desligue energia, busque abrigo elevado e siga orientações das autoridades.</p>
+            </div>
+
+          <div class="card-dicas">
+              <h3 class="titulo-card-dicas">SOLIDARIEDADE</h3>
+              <p class="textos-dicas">Ofereça ajuda a vizinhos e pessoas vulneráveis. Compartilhe informações e recursos de forma segura</p>
+          </div>        
+  </section>
+
+<!--
+  <section class="dicas" id="dicas-section">
+      <h2>Dicas de Prevenção e Segurança</h2>
+      <div class="dicas-container" id="dicas-container"></div>
+  </section>-->
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="js/script.js"></script>
