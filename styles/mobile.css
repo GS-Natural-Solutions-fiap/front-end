@@ -346,3 +346,284 @@
             font-size: 20px;
             min-width: 25px;
         }
+
+        /*_______________________________________________*/
+
+        /* INTEGRANTES */
+
+        
+@media screen and (max-width: 1100px)  {
+   
+    #titulo_eva {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .container_titulo {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding: 10px;
+        margin: 0;
+        bottom: 10px;
+    }
+
+    .container_titulo h1 {
+        font-size: 290%;
+        line-height: 47px;
+        width: 100%;
+    }
+
+    .container_titulo p {
+        width: 95%;
+        font-size: 100%;
+    }
+
+    .container_botoes_titulo {
+        justify-content: left;
+    }
+
+    #container_eva {
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    #hospitais_proximos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .card_hospitais {
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .card_hospitais img:nth-child(1) {
+        display: none;
+    }
+
+    .conteudo_hospitais_poximos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lista_hospitais {
+        justify-items: center;
+        width: 100vw;
+        margin: 0 auto;
+        margin-left: 9px;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .text_card {
+        gap: 20px;
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    #servicos_para_voce {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .text_servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .text_servicos h2, .text_servicos p {
+        width: 95%;
+        justify-content: baseline;
+    }
+
+    .cards_servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .card_servicos {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: baseline;
+        padding: 10px;
+    }
+
+    #sobre_inrea {
+        width: 100vw;
+        align-items: center;
+        padding: 10px;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .text_sobre_inrea {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    #sobre_inrea img {
+        display: none;
+    }
+
+    .conteudo_card {
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .imagens {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .integrantes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+
+    .integrante-um-joao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .integrante-dois-murilo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .paragrafos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .titulo {
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .integrantes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .integrante-um-joao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .integrante-dois-murilo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .paragrafos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .paragrafos h1 {
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+        /* FOOTER */
+
+  
+        @media (max-width: 992px) {
+            .footer-container {
+                gap: 20px;
+            }
+            
+            .footer-section {
+                flex: 0 0 45%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                padding: 40px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .content {
+                padding: 30px;
+            }
+            
+            .footer-section {
+                flex: 0 0 100%;
+            }
+            
+            .footer-container {
+                flex-direction: column;
+            }
+        }
