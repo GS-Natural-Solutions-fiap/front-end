@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Ícones customizados para o mapa
 const icons = {
-    calor: L.icon({ iconUrl: 'imagens/calor.svg', iconSize: [30,30], iconAnchor: [15,30] }),
-    terremoto: L.icon({ iconUrl: 'imagens/terremoto.svg', iconSize: [30,30], iconAnchor: [15,30] }),
-    enchente: L.icon({ iconUrl: 'imagens/enchente.svg', iconSize: [30,30], iconAnchor: [15,30] }),
-    outro: L.icon({ iconUrl: 'imagens/outro.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    calor: L.icon({ iconUrl: 'images/calor.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    terremoto: L.icon({ iconUrl: 'images/terremoto.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    enchente: L.icon({ iconUrl: 'images/enchente.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    outro: L.icon({ iconUrl: 'images/outro.svg', iconSize: [30,30], iconAnchor: [15,30] }),
   };
   
   // Áreas de risco (simulação)
@@ -126,45 +126,8 @@ const icons = {
     return str.charAt(0).toUpperCase() + str.slice(1);
   }
   
-  // Dicas dinâmicas
-  const dicas = [
-    {
-      titulo: "Calor Extremo",
-      texto: "Hidrate-se sempre, evite exposição ao sol entre 10h e 16h, use roupas leves e busque ambientes ventilados."
-    },
-    {
-      titulo: "Terremoto",
-      texto: "Durante um tremor, proteja-se sob móveis resistentes, afaste-se de janelas e, após o evento, vá para áreas abertas e seguras."
-    },
-    {
-      titulo: "Enchente",
-      texto: "Não transite em áreas alagadas, desligue energia, busque abrigo elevado e siga orientações das autoridades."
-    },
-    {
-      titulo: "Solidariedade",
-      texto: "Ofereça ajuda a vizinhos e pessoas vulneráveis. Compartilhe informações e recursos de forma segura."
-    },
-    {
-      titulo: "QUEIMADAS",
-      texto: "Evite queimar lixo, não solte balões e denuncie focos de incêndio. Proteja-se da fumaça, mantendo portas e janelas fechadas."
-    },
-    {
-      titulo: "DESLIZAMENTO",
-      texto: "Fique atento a rachaduras e inclinação de postes ou árvores. Em caso de risco, saia imediatamente e avise a defesa civil."
-    },
-  ];
-  function renderDicas() {
-    const container = document.getElementById('dicas-container');
-    container.innerHTML = "";
-    dicas.forEach(dica => {
-      const el = document.createElement('div');
-      el.className = 'dica';
-      el.innerHTML = `<h3>${dica.titulo}</h3><p>${dica.texto}</p>`;
-      container.appendChild(el);
-    });
-  }
-  renderDicas();
-  
+ 
+
   // Canal solidário
   const listaAjuda = [];
   function renderAjuda() {

@@ -194,13 +194,9 @@ html, body {
   background-size: cover;
   width: 100%;
   height: 100vh;
+  padding:  20px 0 0 0 ;
+  background-color: white;
 }
-
-.solution {
-    padding:  100px 0 0 0 ;
-    background-color: white;
-}
-
 
 .section-title {
     text-align: start;
@@ -209,7 +205,7 @@ html, body {
     position: relative;
     font-family: gotham-ligth;
     padding-left: 100px;
-    margin-top: 170px;
+    margin-top: 0px;
 
 }
 
@@ -351,7 +347,7 @@ html, body {
 
   main {
     max-width: 1800px;
-    margin: 2em auto;
+    margin: 32px auto;
     padding: 50px 96px 0 96px;
   } 
 
@@ -419,6 +415,10 @@ html, body {
 .registrar-ocorrencia {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
   form {
@@ -436,11 +436,11 @@ html, body {
 
   .conteudo-ocorrencia {
     display: flex;
-    gap: 50px;
+    gap: 400px;
     justify-content: space-between;
   }
 
-  .img-arvore {
+  .img-arvore .img-tech {
     width: 450px;
   }
 
@@ -510,6 +510,7 @@ html, body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    margin-bottom: 0;
   }
 
   .dicas-container {
@@ -580,18 +581,32 @@ html, body {
   font-family: gotham-ligth;
   text-align: start;
 }
+
+
+/* SEÇÃO AJUDA */
+
+.ajuda {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
   
-  @media (max-width: 800px) {
-    main { padding: 0 0.2em; }
-    #mapa { height: 230px; min-height: 230px; }
-    .dicas-container { flex-direction: column; }
+.rede-solidaria {
+  display: flex;
+  gap: 400px;
+  justify-content: space-between;
+}
 
-    .img-arvore {
-      display: none;
-    }
-  }
-
-
+.titulo-ajuda {
+  text-align: start;
+  font-size: 50px;
+  position: relative;
+  font-family: gotham-ligth;
+}
 
 /* FOOTER */
 
