@@ -3,12 +3,12 @@
 
 /* NAV-BAR RESPONSIVO */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 700px) {
 
 /* NAV-BAR */    
 
   .nav {
-  padding: 10px 30px;
+  padding: 10px 20px;
   z-index: 2;
 }
 
@@ -32,6 +32,8 @@
 .nav-links {
   padding: 160px 30px;
   height: 125vh;
+  right: 0px;
+  left: 0px;
 }
 
 /* HEADER */
@@ -167,11 +169,74 @@ form {
   width: 354px;
 }
 
+}
+
 /* SEÇÃO AJUDA */
+
+.ajuda {
+  margin: 0;
+}
 
 .titulo-ajuda {
   font-size: 30px;
 }
+
+
+/* ------------------ faq */
+
+
+/* Responsividade FAQ */
+@media (max-width: 992px) {
+    .grid-faq {
+        grid-template-columns: 1fr;
+    }
+    
+    .barra-lateral-faq {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho .container {
+        flex-direction: column;
+    }
+    
+    .navegacao-principal ul {
+        margin-top: 20px;
+    }
+    
+    .navegacao-principal li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .cabecalho-faq h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navegacao-principal ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navegacao-principal li {
+        margin: 5px 10px;
+    }
+    
+    .conteudo-faq,
+    .barra-lateral-faq {
+        padding: 20px;
+    }
+    
+    .grid-servicos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
 
 /* INTEGRANTES */
 

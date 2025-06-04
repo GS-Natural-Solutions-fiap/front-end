@@ -618,6 +618,251 @@ form button:hover {
 }
 
 
+/* ________ FAQ TEST ________ */
+
+
+
+
+.troca-fontes {
+    font-family: font-gotham;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Conteúdo Principal */
+.conteudo-principal {
+    padding: 40px 0;
+    background-image: url(../images/background-solucao.svg);
+    background-size: cover;
+}
+
+.cabecalho-faq {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cabecalho-faq h1 {
+    font-size: 2.5rem;
+    color: #0086C5;
+    margin-bottom: 15px;
+}
+
+.cabecalho-faq p {
+    font-size: 1.1rem;
+    color: #777;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.container-busca {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-busca input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #777;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.container-busca input:focus {
+    outline: none;
+    border-color: #0086C5;
+    box-shadow: 0 0 0 3px rgba(0, 91, 162, 0.2);
+}
+
+.container-busca button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #777;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+/* Grid FAQ */
+.grid-faq {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+}
+
+.barra-lateral-faq {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    position: sticky;
+    top: 100px;
+}
+
+.barra-lateral-faq h2 {
+    font-size: 1.5rem;
+    color: #0086C5;
+    margin-bottom: 15px;
+}
+
+.barra-lateral-faq .subtitulo {
+    color: #777;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.cartao-ajuda {
+    background-color: #ebebeb;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cartao-ajuda i {
+    font-size: 2.5rem;
+    color: #0086C5;
+    margin-bottom: 15px;
+}
+
+.cartao-ajuda h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.cartao-ajuda p {
+    color: #231f1f;
+    margin-bottom: 20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #0086C5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #0070a3;
+    transform: translateY(-2px);
+}
+
+/* Conteúdo FAQ */
+.conteudo-faq {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-faq h2 {
+    font-size: 30px;
+    color: #0086C5;
+    margin-bottom: 30px;
+}
+
+.categoria-faq {
+    margin-bottom: 40px;
+}
+
+.categoria-faq h3 {
+    font-size: 25px;
+    color: #006899;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.categoria-faq h3 i {
+    color: #0086C5;
+}
+
+/* Acordeão FAQ */
+.acordeao-faq {
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item-faq {
+    border-bottom: 1px solid #bdbdbd;;
+}
+
+.item-faq:last-child {
+    border-bottom: none;
+}
+
+.pergunta-faq {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.pergunta-faq:hover {
+    background-color: #f7f7f7;
+}
+
+.pergunta-faq i {
+    transition: all 0.3s ease;
+}
+
+.item-faq.ativo .pergunta-faq i {
+    transform: rotate(180deg);
+}
+
+.resposta-faq {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f7f7f7;
+}
+
+.item-faq.ativo .resposta-faq {
+    max-height: 1000px;
+    padding: 20px;
+}
+
+.resposta-faq p {
+    margin-bottom: 15px;
+}
+
+.resposta-faq ul,
+.resposta-faq ol {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.resposta-faq li {
+    margin-bottom: 8px;
+}
+
+
+
+
 /* FOOTER */
 
 * {
