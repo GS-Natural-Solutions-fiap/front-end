@@ -1,6 +1,178 @@
 
 /*_______________________________________________*/
 
+/* NAV-BAR RESPONSIVO */
+
+@media screen and (max-width: 414px) {
+
+/* NAV-BAR */    
+
+  .nav {
+  padding: 10px 30px;
+  z-index: 2;
+}
+
+.logo-nav {
+  gap: 10px;
+}
+
+.logo-name {
+  font-size: 35px;
+}
+
+.logo-geoalert {
+  width: 40px;
+}
+
+.nav-links a {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.nav-links {
+  padding: 160px 30px;
+  height: 125vh;
+}
+
+/* HEADER */
+
+.header {
+    height: 105vh;
+}
+
+.world {
+  display: none;
+}
+
+.titulo-header {
+  margin: 30px 0 30px 0;
+}
+
+.paragrafo-header {
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.conteudo-header {
+  gap: 0px;
+}
+
+.circle-scroll {
+  width: 55px;
+  height: 55px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 17px;
+  height: 17px;
+}
+
+/* SOLUCAO */
+
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+}
+
+/* SEÇÃO MAPA */
+
+.sessao-mapa {
+  height: 60vh;
+}
+
+.mapa-wraper {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 200px;
+}
+
+.titulo-mapa {
+  margin: 40px 0 40px 0;
+  font-size: 30px;
+}
+
+.titulo-form {
+  margin: 0 0 25px 0;
+  font-size: 30px;
+}
+
+.ocorrencia-wraper {
+  padding: 0 50px 70px 50px;
+}
+
+.titulo-ocorrencia {
+  margin: 30px 0 100px 0;
+  font-size: 30px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+.registrar-ocorrencia {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 350px;
+}
+
+.img-arvore {
+  display: none;
+}
+    
+.img-tech {
+  display: none;
+}
+
+/* SECAO DICAS */
+
+.dicas {
+  height: 120vh;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+}
+
+.titulo-secao-dicas {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.card-dicas {
+  width: 354px;
+}
+
+/* SEÇÃO AJUDA */
+
+.titulo-ajuda {
+  font-size: 30px;
+}
+
 /* INTEGRANTES */
 
         
@@ -137,7 +309,4 @@
     #mapa { height: 230px; min-height: 230px; }
     .dicas-container { flex-direction: column; }
 
-    .img-arvore {
-      display: none;
-    }
   }
