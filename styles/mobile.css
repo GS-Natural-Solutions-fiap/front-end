@@ -3,6 +3,195 @@
 
 /* NAV-BAR RESPONSIVO */
 
+@media screen and (max-width: 1025px) {
+
+/* NAV-BAR */    
+
+  .nav {
+  padding: 10px 20px;
+  z-index: 2;
+}
+
+.logo-name {
+  font-size: 35px;
+}
+
+.logo-geoalert {
+  width: 40px;
+}
+
+.nav-links a {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.nav-links {
+  padding: 160px 30px;
+  height: 125vh;
+  right: 0px;
+  left: 0px;
+}
+
+/* HEADER */
+
+.header {
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+
+.titulo-header {
+  margin: 40px 0 20px 0;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.world {
+  width: 400px;
+}
+
+.paragrafo-header {
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+.conteudo-header {
+  gap: 80px;
+}
+
+.circle-scroll {
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+/* SOLUCAO */
+
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+}
+
+/* SEÇÃO MAPA */
+
+.sessao-mapa {
+  height: 100vh;
+}
+
+.mapa-wraper {
+  padding: 30px;
+  margin: 100px 0 200px 0;
+}
+
+section {
+  margin-bottom: 0;
+}
+
+.titulo-mapa {
+  font-size: 30px;
+}
+
+.titulo-form {
+  margin: 0 0 25px 0;
+  font-size: 30px;
+}
+
+.ocorrencia-wraper {
+  padding: 0 50px 70px 50px;
+}
+
+.titulo-ocorrencia {
+  margin: 30px 0 100px 0;
+  font-size: 30px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+form {
+  width: 300px;
+  padding: 20px;
+}
+
+.conteudo-ocorrencia {
+  gap: 250px;
+}
+
+.img-arvore {
+  width: 400px;
+}
+
+.ocorrencia-wraper {
+  padding: 0;
+}
+
+/* SECAO DICAS */
+
+.dicas {
+  height: 100vh;
+}
+
+.sec-dicas {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+}
+
+.titulo-secao-dicas {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.card-dicas {
+  padding: 30px;
+}
+
+}
+
+/* SEÇÃO AJUDA */
+
+.ajuda {
+  margin: 0;
+}
+
+.titulo-ajuda {
+  font-size: 30px;
+}
+
+.rede-solidaria {
+  gap: 250px;
+}
+
+.img-tech {
+  width: 400px;
+}
+
+
+
 @media screen and (max-width: 700px) {
 
 /* NAV-BAR */    
@@ -139,6 +328,10 @@ form {
   height: 120vh;
 }
 
+.sec-dicas {
+  padding: 30px;
+}
+
 .container {
   width: 100%;
   padding: 30px;
@@ -148,6 +341,15 @@ form {
   margin-bottom: 50px;
   font-size: 30px;
 }
+
+.img-arvore {
+  display: none;
+}
+    
+.img-tech {
+  display: none;
+}
+
 
 .card-dicas {
   width: 354px;
@@ -172,8 +374,14 @@ form {
 
   .nav {
   padding: 10px 20px;
-  gap: 70px;
+  width: 100%;
+  gap: 30px;
+  box-sizing: border-box;
   justify-content: flex-start;
+}
+
+.nav-links a {
+  font-size: 29px;
 }
 
 .textos-header {
@@ -263,7 +471,7 @@ section {
 /* REGISTRAR OCORRENCIA */
 
 .registrar-ocorrencia {
-  height: 120vh;
+  height: 100vh;
 }
 
 form {

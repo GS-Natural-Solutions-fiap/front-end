@@ -486,11 +486,6 @@ form {
   width: 550px;
 }
 
-.botao-choose {
-  border: 1px solid black;
-  padding: ;
-}
-
 .conteudo-ocorrencia {
   display: flex;
   gap: 400px;
