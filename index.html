@@ -35,12 +35,12 @@
         <h1 class="logo-name">GeoAlert</h1>
       </div>
       <ul class="nav-links">
-          <li><a href="#">Mapa em Tempo Real</a></li>
-          <li><a href="#">Dicas de Prevenção</a></li>
-          <li><a href="#">Registrar Ocorrencia</a></li>
-          <li><a href="#">Rede Solidária</a></li>
+          <li><a href="#mapa-section">Mapa em Tempo Real</a></li>
+          <li><a href="#dicas">Dicas de Prevenção</a></li>
+          <li><a href="#form-section">Registrar Ocorrencia</a></li>
+          <li><a href="#solidaria">Rede Solidária</a></li>
           <li><a href="faq.html">FAQ</a></li>
-          <li><a href="#">Contatos</a></li>
+          <li><a href="#footer">Contatos</a></li>
           <li><a href="integrantes.html" target="_blank">Integrantes</a></li>
       </ul>
       <button class="hamburger" aria-label="Menu">
@@ -77,28 +77,28 @@
         <div class="solution-steps">
           <div class="step">
               <div class="step-icon">
-                  <img src="images/icon-pesssoas.svg" alt="">
+                  <img class="icon" src="images/icon-pesssoas.svg" alt="">
               </div>
               <h3>ENVOLVIMENTO COMUNITÁRIO</h3>
               <p class="textos-solution">Plataforma colaborativa para cidadãos reportarem problemas e oferecerem ajuda.</p>
           </div>
           <div class="step">
             <div class="step-icon">
-                <img src="images/icon-escudo.svg" alt="">
+                <img class="icon" src="images/icon-escudo.svg" alt="">
             </div>
             <h3>DASHBOARD DE CRISES</h3>
             <p class="textos-solution">Controle centralizado para tomada de decisão em emergências.</p>
           </div>
           <div class="step">
               <div class="step-icon">
-                  <img src="images/icon-mapa.svg" alt="">
+                  <img class="icon" src="images/icon-mapa.svg" alt="">
               </div>
               <h3>MAPAS DE RISCO DINÂMICOS</h3>
               <p class="textos-solution">Visualização interativa de áreas afetadas.</p>
           </div>
             <div class="step">
                 <div class="step-icon">
-                    <img src="images/icon-perigo.svg" alt="">
+                    <img class="icon" src="images/icon-perigo.svg" alt="">
                 </div>
                 <h3>ALERTAS PRECOCES</h3>
                 <p class="textos-solution">Sistemas de aviso para enchentes, incêndios, tempestades e secas..</p>
@@ -128,7 +128,7 @@
       <h2 class="titulo-form">REGISTRAR OCORRÊNCIA</h2>
       <div class="conteudo-ocorrencia">
         <form id="form-ocorrencia">
-        <label for="tipo">Tipo de acontecimento:</label>
+        <label class="estilizacao-rede-solidaria" for="tipo">Tipo de acontecimento:</label>
         <select id="tipo" required>
           <option value="">Selecione</option>
           <option value="calor">Calor Extremo</option>
@@ -136,12 +136,12 @@
           <option value="enchente">Enchente</option>
           <option value="outro">Outro</option>
         </select>
-        <label for="descricao">Descrição:</label>
-        <textarea id="descricao" rows="2" required placeholder="Explique o ocorrido"></textarea>
-        <label for="foto">Foto (opcional):</label>
-        <input type="file" id="foto" accept="image/*">
-        <input type="hidden" id="lat">
-        <input type="hidden" id="lng">
+        <label class="estilizacao-rede-solidaria" for="descricao">Descrição:</label>
+        <textarea class="estilizacao-rede-solidaria" id="descricao" rows="2" required placeholder="Explique o ocorrido"></textarea>
+        <label class="estilizacao-rede-solidaria custom-file-button" for="foto">Adicione uma imagem</label>
+        <input class="estilizacao-rede-solidaria botao-choose" type="file" id="foto" accept="image/*">
+        <input class="estilizacao-rede-solidaria" type="hidden" id="lat">
+        <input class="estilizacao-rede-solidaria" type="hidden" id="lng">
         <div id="coordenadas-info">Clique no mapa para marcar a localização.</div>
         <button type="submit">Registrar Ocorrência</button>
         <p id="form-msg"></p>
@@ -157,7 +157,7 @@
   </main>
 
   <section class="dicas" id="dicas">
-    <div class="container">
+    <div class="sec-dicas">
       <h2 class="titulo-secao-dicas">DICAS DE PREVENÇÃO E SEGURANÇA</h2>
         <div class="dicas-steps">
 
@@ -191,16 +191,16 @@
   <section class="ajuda" id="ajuda-section">
     <div class="ajuda-wrapper">
       <h2 class="titulo-ajuda">Rede Solidária</h2>
-      <div class="rede-solidaria">
+      <div class="rede-solidaria" id="solidaria">
         <form id="form-ajuda">
-          <select id="tipo-ajuda" required>
+          <select class="estilizacao-rede-solidaria" id="tipo-ajuda" required>
             <option value="">Selecione</option>
             <option value="preciso">Preciso de ajuda</option>
             <option value="ofereco">Ofereço ajuda</option>
           </select>
-          <input type="text" id="nome-ajuda" placeholder="Seu nome" required>
-          <input type="text" id="contato-ajuda" placeholder="Contato (e-mail, tel, etc.)" required>
-          <textarea id="msg-ajuda" rows="2" placeholder="Explique sua necessidade ou oferta" required></textarea>
+          <input class="estilizacao-rede-solidaria" type="text" id="nome-ajuda" placeholder="Seu nome" required>
+          <input class="estilizacao-rede-solidaria" type="text" id="contato-ajuda" placeholder="Contato (e-mail, tel, etc.)" required>
+          <textarea class="estilizacao-rede-solidaria" id="msg-ajuda" rows="2" placeholder="Explique sua necessidade ou oferta" required></textarea>
           <button type="submit">Publicar</button>
           <p id="ajuda-msg"></p>
       </form>
@@ -210,7 +210,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="footer">
         <div class="footer-container">
             <div class="footer-section logo-section">
                 <div class="logo">

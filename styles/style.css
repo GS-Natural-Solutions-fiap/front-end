@@ -429,17 +429,66 @@ h2 {
   align-items: center;
 }
 
+input[type="file"] {
+  display: none;
+}
+
+custom-file-button {
+  background-color: #e7e7e7;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-file-button:hover {
+  background-color: #d1d1d1;
+}
+
+
+/* Estilizar o botão personalizado */
+.custom-file-button {
+  background-color: #e7e7e7;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-file-button:hover {
+  background-color: #d1d1d1;
+}
+
+/* Estilizar o texto do nome do arquivo */
+.custom-file-name {
+  margin-left: 10px;
+  color: #666;
+}
+
+/* Estilizar o ícone do botão */
+.custom-file-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+}
+
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
   background: #EFEFEF;
-  padding: 50px 50px ;
+  padding: 50px;
   border-radius: 10px;
   box-shadow: 0 1px 6px rgba(40,75,99,0.05);
   max-width: 550px;
   margin-bottom: 10px;
   width: 550px;
+}
+
+.botao-choose {
+  border: 1px solid black;
+  padding: ;
 }
 
 .conteudo-ocorrencia {
@@ -522,9 +571,12 @@ form button:hover {
   align-items: center;
 }
 
-.container {
-  width: 100%;
-  padding: 96px;
+
+.sec-dicas {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding: 96px;
 }
 
 .dicas-container {
@@ -574,13 +626,12 @@ form button:hover {
 
 .card-dicas {
   text-align: center;
-  padding: 50px;
+  padding: 70px;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
   background-color: #ffffff;
   border: 1px solid black;
   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.5);
-  width: 320px;
 }
 
 .card-dicas:hover {
@@ -610,6 +661,10 @@ form button:hover {
   justify-content: space-between;
 }
 
+.estilizacao-rede-solidaria {
+  font-family: gotham-ligth;
+}
+
 .titulo-ajuda {
   text-align: start;
   font-size: 50px;
@@ -629,9 +684,9 @@ form button:hover {
 
 .container {
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    padding: 96px;
 }
 
 /* Conteúdo Principal */
