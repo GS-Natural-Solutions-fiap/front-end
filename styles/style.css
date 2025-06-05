@@ -115,7 +115,6 @@ html, body {
   background-image: url(../images/background-header.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -667,6 +666,10 @@ form button:hover {
   font-family: gotham-ligth;
 }
 
+h2.title-help {
+  font-size: 50px;
+}
+
 
 /* ________ FAQ TEST ________ */
 
@@ -910,7 +913,282 @@ form button:hover {
     margin-bottom: 8px;
 }
 
+/* LOGIN */
 
+.login {
+    background-image: url(/images/background-login.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.login-geral {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.logo-geo-branca {
+  width: 100px;
+}
+
+.left-panel {
+    flex: 1;
+    background-color: #0bb4e7;
+    color: white;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-panel h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.left-panel p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.illustration {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+.illustration img {
+    width: 100%;
+    height: auto;
+}
+
+.right-panel {
+    flex: 1;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo i {
+    font-size: 48px;
+    color: #0bb4e7;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+.form-control {
+    width: 100%;
+    padding: 14px 14px 14px 45px;
+    border: 2px solid #e1e1e1;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4776E6;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(71, 118, 230, 0.2);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 8px;
+}
+
+.forgot-password {
+    color: #4776E6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: #3258c4;
+    text-decoration: underline;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #0bb4e7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.divider {
+    text-align: center;
+    position: relative;
+    margin: 25px 0;
+}
+
+.divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #e1e1e1;
+    z-index: 1;
+}
+
+.divider span {
+    display: inline-block;
+    background: white;
+    padding: 0 15px;
+    position: relative;
+    z-index: 2;
+    color: #777;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.social-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f7ff;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn.google {
+    color: #db4437;
+}
+
+.social-btn.facebook {
+    color: #4267B2;
+}
+
+.social-btn.twitter {
+    color: #1DA1F2;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.register-link a {
+    color: #4776E6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #3258c4;
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.right-panel > * {
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.right-panel > *:nth-child(1) { animation-delay: 0.1s; }
+.right-panel > *:nth-child(2) { animation-delay: 0.2s; }
+.right-panel > *:nth-child(3) { animation-delay: 0.3s; }
+.right-panel > *:nth-child(4) { animation-delay: 0.4s; }
+.right-panel > *:nth-child(5) { animation-delay: 0.5s; }
+.right-panel > *:nth-child(6) { animation-delay: 0.6s; }
+.right-panel > *:nth-child(7) { animation-delay: 0.7s; }
+.right-panel > *:nth-child(8) { animation-delay: 0.8s; }
 
 
 /* FOOTER */
@@ -926,6 +1204,14 @@ footer {
     background: white;
     color: black;
 
+}
+
+.titulo-footer {
+  font-family: gotham-medium;
+}
+
+.paragrafos-footer {
+  font-family: gotham-ligth;
 }
 
 .footer-container {

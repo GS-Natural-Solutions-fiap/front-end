@@ -2,6 +2,12 @@
 
 @media screen and (max-width: 1601px) {
 
+  /* NAV */
+
+  .nav-links {
+  padding: 200px 50px;
+}
+
 /* HEADER */
 
 .header {
@@ -114,7 +120,7 @@ form {
   margin: 0;
 }
 
-h2.titulo-ajuda {
+.titulo-ajuda {
   font-size: 50px;
 }
 
@@ -546,16 +552,6 @@ form {
 
 }
 
-/* SEÇÃO AJUDA */
-
-.ajuda {
-  margin: 0;
-}
-
-h2.titulo-ajuda {
-  font-size: 30px;
-}
-
 @media screen and (max-width: 415px) {
   
 h1.titulo-header {
@@ -794,7 +790,21 @@ form {
     }
 }
 
+/* LOGIN */
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .left-panel {
+        padding: 30px 20px;
+    }
+    
+    .right-panel {
+        padding: 30px 20px;
+    }
+}
 
 
 /* INTEGRANTES */
