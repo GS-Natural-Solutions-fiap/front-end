@@ -4,7 +4,7 @@
 
   /* NAV */
 
-  .nav-links {
+.nav-links {
   padding: 200px 50px;
 }
 
@@ -130,6 +130,48 @@ form {
 
 .rede-solidaria {
   gap: 390px;
+}
+
+}
+
+@media screen and (max-width: 1367px) {
+ 
+  .titulo-ajuda,.titulo-form,.titulo-mapa,.titulo-ocorrencia,.titulo-secao-dicas,.section-title {
+    font-size: 40px;
+  }
+
+ /* HEADER */ 
+
+h1.titulo-header {
+  margin: 0 0 20px 0;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.paragrafo-header {
+  font-size: 25px;
+  line-height: 25px;
+
+}
+
+.conteudo-header {
+  margin-top: 100px;
+}
+
+.circle-scroll {
+  margin-top: 20px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+.conteudo-ocorrencia {
+  gap: 100px;
+}
+
+/* SEÇÃO AJUDA */
+
+.rede-solidaria {
+  gap: 100px;
 }
 
 }
@@ -565,6 +607,43 @@ p.paragrafo-header {
 }
 }
 
+@media screen and (max-width: 769px ) {
+  /* LOGIN */
+
+.login {
+  flex-direction: column;
+  padding: 0;
+}
+
+.login-geral {
+  flex-direction: column;
+}
+
+form {
+  margin-left: 40px;
+}
+
+.container {
+        flex-direction: column;
+    }
+    
+    .left-panel {
+        padding: 0;
+    }
+    
+    .right-panel {
+        padding: 0;
+    }
+
+  img.logo-geo-branca {
+    width: 100px;
+  }
+
+  .illustration {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 385px) {
 
 /* NAV-BAR */    
@@ -718,29 +797,11 @@ form {
   width: 315px;
   padding: 20px;
 }
-
 }
 
-/* SEÇÃO AJUDA */
-
-.ajuda {
-  margin: 0;
-}
-
-.ajuda-wrapper {
-  margin-top: 200px;7
-  height: 100vh;
-}
-
-.titulo-ajuda {
-  font-size: 30px;
-  margin-top: 100px;
-}
-
-/* ------------------ faq */
 
 
-/* Responsividade FAQ */
+/* FAQ */
 @media (max-width: 992px) {
     .grid-faq {
         grid-template-columns: 1fr;
