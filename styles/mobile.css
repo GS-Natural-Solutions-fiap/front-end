@@ -282,6 +282,28 @@ form {
   padding: 30px;
 }
 
+/* SEÇÃO AJUDA */
+
+.ocorrencia-wrapper {
+  padding: 30px;
+}
+
+.ajuda-wrapper {
+  padding: 30px;
+}
+
+.rede-solidaria {
+  gap: 50px;
+}
+
+.img-tech {
+  width: 390px;
+}
+
+#solidaria{
+  gap: 120px;
+}
+
 }
 
 @media screen and (max-width: 825px) {
@@ -321,6 +343,10 @@ form {
   padding: 20px;
 }
 
+.img-arvore {
+  width: 350px;
+}
+
 div.conteudo-ocorrencia {
   gap: 30px;
 }
@@ -339,8 +365,12 @@ div.conteudo-ocorrencia {
   gap: 50px;
 }
 
+.img-tech {
+  width: 390px;
+}
+
 #solidaria{
-  gap: 0px;
+  gap: 30px;
 }
 }
 
@@ -522,7 +552,7 @@ form {
   margin: 0;
 }
 
-.titulo-ajuda {
+h2.titulo-ajuda {
   font-size: 30px;
 }
 
@@ -645,12 +675,16 @@ section {
 
 /* REGISTRAR OCORRENCIA */
 
+.titulo-ocorrencia {
+  margin-bottom: 0;
+}
+
 .registrar-ocorrencia {
   height: 100vh;
 }
 
 form {
-  width: 350px;
+  width: 320px;
 }
 
 .img-arvore {
@@ -664,7 +698,8 @@ form {
 /* SECAO DICAS */
 
 .sec-dicas {
-  margin-top: 200px;
+  margin-top: 300px;
+  height: 160vh;
   padding: 30px;
 }
 
@@ -696,12 +731,15 @@ form {
   margin: 0;
 }
 
+.ajuda-wrapper {
+  margin-top: 200px;7
+  height: 100vh;
+}
+
 .titulo-ajuda {
   font-size: 30px;
   margin-top: 100px;
 }
-
-
 
 /* ------------------ faq */
 
