@@ -1,47 +1,26 @@
-
 /*_______________________________________________*/
 
-/* NAV-BAR RESPONSIVO */
-
-
-@media screen and (max-width: 1025px) {
-
-/* NAV-BAR */    
-
-.nav-links a {
-  font-size: 30px;
-  padding-bottom: 20px;
-}
-
-.nav-links {
-  padding: 160px 30px;
-  height: 125vh;
-  right: 0px;
-  left: 0px;
-}
+@media screen and (max-width: 1601px) {
 
 /* HEADER */
 
 .header {
-    height: 100vh;
-    margin-bottom: 0;
-    padding: 30px;
+  margin-bottom: 0;
 }
-
 
 .titulo-header {
   margin: 40px 0 20px 0;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .world {
-  width: 400px;
+  width: 500px;
 }
 
 .paragrafo-header {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 30px;
+  line-height: 30px;
 
 }
 
@@ -50,60 +29,31 @@
 }
 
 .circle-scroll {
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   margin-top: 80px;
 }
 
 .arrow {
-  width: 16px;
-  height: 16px;
-}
-
-/* SOLUCAO */
-
-.section-title {
-  font-size: 30px;
-  margin-top: 100px;
-}
-
-.solution-steps {
-  gap: 30px;
-  padding: 50px 0 0 0;
-}
-
-.step {
-  padding: 30px;
-}
-
-.container {
-  width: 100%;
-  padding: 0 30px 70px 30px;
+  width: 20px;
+  height: 20px;
 }
 
 /* SEÇÃO MAPA */
 
-.sessao-mapa {
-  height: 100vh;
-}
-
 .mapa-wraper {
-  padding: 30px;
-  margin: 250px 0 200px 0;
-}
-
-section {
-  margin-bottom: 0;
+  padding: 50px;
+  margin: 50px 0 0 0;
 }
 
 .titulo-mapa {
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 50px;
 }
 
 .titulo-form {
-  margin: 100px 0 25px 0;
-  font-size: 30px;
+  margin: 0 0 25px 0;
+  font-size: 50px;
 }
 
 .ocorrencia-wraper {
@@ -112,70 +62,70 @@ section {
 
 .titulo-ocorrencia {
   margin: 30px 0 100px 0;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /* REGISTRAR OCORRENCIA */
 
 form {
-  width: 400px;
+  width: 500px;
   padding: 20px;
 }
 
-.conteudo-ocorrencia {
-  gap: 120px;
-}
-
 .img-arvore {
-  width: 400px;
+  width: 560px;
+  height: 500px;
 }
 
-.ocorrencia-wraper {
-  padding: 0;
+.conteudo-ocorrencia {
+  gap: 390px;
+}
+
+.registrar-ocorrencia {
+  margin-bottom: 0;
 }
 
 /* SECAO DICAS */
 
 .dicas {
-  height: 100vh;
+  margin-bottom: 0;
 }
 
 .sec-dicas {
   padding: 30px;
 }
 
-.container {
-  width: 100%;
-  padding: 30px;
-}
-
 .titulo-secao-dicas {
   margin-bottom: 50px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .card-dicas {
   padding: 30px;
 }
 
-}
-
 /* SEÇÃO AJUDA */
+
+.ajuda-wrapper {
+  padding: 50px;
+}
 
 .ajuda {
   margin: 0;
 }
 
-.titulo-ajuda {
-  font-size: 30px;
-}
-
-.rede-solidaria {
-  gap: 120px;
+h2.titulo-ajuda {
+  font-size: 50px;
 }
 
 .img-tech {
-  width: 400px;
+  width: 560px;
+}
+
+.rede-solidaria {
+  gap: 390px;
+}
+
 }
 
 @media screen and (max-width: 1025px) {
