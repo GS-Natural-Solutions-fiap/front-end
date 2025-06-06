@@ -1265,6 +1265,11 @@ footer {
     list-style: none;
 }
 
+.emergencias {
+  font-weight: 1000;
+  font-size: 20px;
+}
+
 .footer-section ul li {
     margin-bottom: 5px;
 }
