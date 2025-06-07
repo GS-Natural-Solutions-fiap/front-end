@@ -1,4 +1,4 @@
-# 🏥 Global Solution | GeoAlert | FIAP
+# 🌎 Global Solution | GeoAlert | FIAP
 
 Bem-vindo à documentação do projeto **GeoAlert**, uma aplicação web desenvolvida com foco no **auxilio, prevenção e ajuda** por meio de uma interface moderna, responsiva e integrado com diversos meios de ajuda e prevenção, para evitar um desastre maior, ou até evitar que o mesmo aconteça, por meio de auto ajuda, e um mapa mostrando os principais alertas em tempo real, e a ajuda humanitária.
 
