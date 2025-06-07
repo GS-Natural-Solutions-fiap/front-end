@@ -116,8 +116,6 @@ html, body {
   text-decoration: none;
 }
 
-
-
 /* HEADER */
 
 .header {
@@ -190,7 +188,6 @@ html, body {
   transform: rotate(45deg);
 }
 
-
 .arrow {
   animation: bounce 2s infinite;
 }
@@ -258,10 +255,7 @@ html, body {
   font-family: gotham-ligth;
 }
 
-
 /* PAGINA DE INTEGRANTES */
-
-
 
 .integrantes {
   padding: 150px 96px 50px 96px;
@@ -490,7 +484,7 @@ form {
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0 1px 6px rgba(40,75,99,0.05);
-  max-width: 550px;
+  max-width: 1500px;
   margin-bottom: 10px;
   width: 550px;
 }
