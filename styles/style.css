@@ -49,6 +49,11 @@ html, body {
   font-size: 50px;
 }
 
+.numero {
+  margin-right: 40px;
+  font-size: 25px;
+}
+
 .hamburger {
   cursor: pointer;
   background: none;
@@ -63,11 +68,6 @@ html, body {
   background: black;
   margin: 12px 0;
   transition: all 0.3s ease;
-}
-
-.numero {
-  margin-right: 40px;
-  font-size: 25px;
 }
 
 .nav-links-number {
@@ -134,13 +134,13 @@ html, body {
 }
 
 .world {
-  width: 100%;
+  width: 500px;
 }
 
 .titulo-header {
+  margin: 30px 0 30px 0;
   font-size: 50px;
   font-family: gotham-ligth;
-  margin-bottom: 30px;
 }
 
 .paragrafo-header {
@@ -151,7 +151,7 @@ html, body {
 
 .conteudo-header {
   display: flex;
-  gap: 400px;
+  gap: 500px;
 }
 
 .scroll {
@@ -313,11 +313,11 @@ html, body {
 }
 
 .movendo-icones {
-     transition: transform 1s ease;
+     transition: transform 1s;
 }
 
 .movendo-icones:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 

@@ -1,5 +1,72 @@
 /*_______________________________________________*/
 
+@media screen and (max-width: 1921) {
+  
+ /* HEADER */
+
+.header {
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+
+.titulo-header {
+  margin: 40px 0 20px 0;
+  font-size: 50px;
+  line-height: 35px;
+}
+
+.world {
+  width: 400px;
+}
+
+.paragrafo-header {
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+.conteudo-header {
+  gap: 80px;
+}
+
+.circle-scroll {
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+/* SOLUCAO */
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+}
+}
+
+
+}
+
 @media screen and (max-width: 1601px) {
 
   /* NAV */
@@ -14,9 +81,9 @@
   margin-bottom: 0;
 }
 
-.titulo-header {
+h1.titulo-header {
   margin: 40px 0 20px 0;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 50px;
 }
 
@@ -140,26 +207,49 @@ form {
     font-size: 40px;
   }
 
+  .nav-links a {
+  font-size: 35px;
+}
+
+  .nav-links {
+  padding: 100px 50px;
+}
+
  /* HEADER */ 
 
-h1.titulo-header {
+ .header {
+  padding: 100px 40px;
+ }
+
+.titulo-header {
   margin: 0 0 20px 0;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .paragrafo-header {
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 30px;
+  line-height: 35px;
 
 }
 
 .conteudo-header {
-  margin-top: 100px;
+  gap: 100px;
+}
+
+.world {
+  width: 380px;
 }
 
 .circle-scroll {
   margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
 }
 
 /* REGISTRAR OCORRENCIA */
@@ -174,6 +264,71 @@ h1.titulo-header {
   gap: 100px;
 }
 
+}
+
+@media screen and (max-width: 1281px) {
+
+  
+  /* HEADER */
+
+.header {
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+
+.titulo-header {
+  margin: 40px 0 20px 0;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.world {
+  width: 400px;
+}
+
+.paragrafo-header {
+  font-size: 25px;
+  line-height: 27px;
+
+}
+
+.conteudo-header {
+  gap: 80px;
+}
+
+.circle-scroll {
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+/* SOLUCAO */
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+}
 }
 
 @media screen and (max-width: 1025px) {
@@ -619,9 +774,7 @@ p.paragrafo-header {
   flex-direction: column;
 }
 
-form {
-  margin-left: 40px;
-}
+
 
 .container {
         flex-direction: column;
