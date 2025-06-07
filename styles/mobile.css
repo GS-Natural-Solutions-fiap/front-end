@@ -1,5 +1,1030 @@
-
 /*_______________________________________________*/
+
+@media screen and (max-width: 1921) {
+  
+ /* HEADER */
+
+.header {
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+
+.titulo-header {
+  margin: 40px 0 20px 0;
+  font-size: 50px;
+  line-height: 35px;
+}
+
+.world {
+  width: 400px;
+}
+
+.paragrafo-header {
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+.conteudo-header {
+  gap: 80px;
+}
+
+.circle-scroll {
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+/* SOLUCAO */
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+}
+}
+
+@media screen and (max-width: 1601px) {
+
+   .nav-links a {
+  font-size: 35px;
+}
+
+  .nav-links {
+  padding: 100px 50px;
+}
+
+ /* HEADER */ 
+
+ .header {
+  padding: 100px 0px;
+ }
+
+.titulo-header {
+  margin: 0 0 20px 0;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.paragrafo-header {
+  font-size: 30px;
+  line-height: 35px;
+
+}
+
+.conteudo-header {
+  gap: 100px;
+}
+
+.world {
+  width: 380px;
+}
+
+.circle-scroll {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+.conteudo-ocorrencia {
+  gap: 100px;
+}
+
+/* SEÇÃO MAPA */
+
+.mapa-wraper {
+  padding: 50px;
+  margin: 50px 0 0 0;
+}
+
+.titulo-mapa {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.titulo-form {
+  margin: 0 0 25px 0;
+  font-size: 50px;
+}
+
+.ocorrencia-wraper {
+  padding: 0 50px 70px 50px;
+}
+
+.titulo-ocorrencia {
+  margin: 30px 0 100px 0;
+  font-size: 50px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+form {
+  width: 500px;
+  padding: 20px;
+}
+
+.img-arvore {
+  width: 560px;
+  height: 500px;
+}
+
+.conteudo-ocorrencia {
+  gap: 390px;
+}
+
+.registrar-ocorrencia {
+  margin-bottom: 0;
+}
+
+/* SECAO DICAS */
+
+.dicas {
+  margin-bottom: 0;
+}
+
+.sec-dicas {
+  padding: 30px;
+}
+
+.titulo-secao-dicas {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.card-dicas {
+  padding: 30px;
+}
+
+/* SEÇÃO AJUDA */
+
+.ajuda-wrapper {
+  padding: 50px;
+}
+
+.ajuda {
+  margin: 0;
+}
+
+.titulo-ajuda {
+  font-size: 50px;
+}
+
+.img-tech {
+  width: 560px;
+}
+
+.rede-solidaria {
+  gap: 390px;
+}
+
+}
+
+@media screen and (max-width: 1367px) {
+ 
+  .titulo-ajuda,.titulo-form,.titulo-mapa,.titulo-ocorrencia,.titulo-secao-dicas,.section-title {
+    font-size: 40px;
+  }
+
+  .nav-links a {
+  font-size: 35px;
+}
+
+  .nav-links {
+  padding: 100px 50px;
+}
+
+ /* HEADER */ 
+
+ .header {
+  padding: 100px 40px;
+ }
+
+.titulo-header {
+  margin: 0 0 20px 0;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.paragrafo-header {
+  font-size: 30px;
+  line-height: 35px;
+
+}
+
+.conteudo-header {
+  gap: 100px;
+}
+
+.world {
+  width: 380px;
+}
+
+.circle-scroll {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+.conteudo-ocorrencia {
+  gap: 100px;
+}
+
+/* SEÇÃO AJUDA */
+
+.rede-solidaria {
+  gap: 100px;
+}
+
+}
+
+@media screen and (max-width: 1281px) {
+
+  
+  /* HEADER */
+
+.header {
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+
+.titulo-header {
+  margin: 40px 0 20px 0;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.world {
+  width: 400px;
+}
+
+.paragrafo-header {
+  font-size: 25px;
+  line-height: 27px;
+
+}
+
+.conteudo-header {
+  gap: 80px;
+}
+
+.circle-scroll {
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+/* SOLUCAO */
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+}
+}
+
+@media screen and (max-width: 1025px) {
+
+/* NAV-BAR */    
+
+.nav-links a {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.nav-links {
+  padding: 160px 30px;
+  height: 125vh;
+  right: 0px;
+  left: 0px;
+}
+
+/* HEADER */
+
+.header {
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+
+.titulo-header {
+  margin: 40px 0 20px 0;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.world {
+  width: 400px;
+}
+
+.paragrafo-header {
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+.conteudo-header {
+  gap: 80px;
+}
+
+.circle-scroll {
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+/* SOLUCAO */
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+}
+
+/* SEÇÃO MAPA */
+
+.sessao-mapa {
+  height: 100vh;
+}
+
+.mapa-wraper {
+  padding: 30px;
+  margin: 250px 0 200px 0;
+}
+
+section {
+  margin-bottom: 0;
+}
+
+.titulo-mapa {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.titulo-form {
+  margin: 100px 0 25px 0;
+  font-size: 30px;
+}
+
+.ocorrencia-wraper {
+  padding: 0 50px 70px 50px;
+}
+
+.titulo-ocorrencia {
+  margin: 30px 0 100px 0;
+  font-size: 30px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+form {
+  width: 400px;
+  padding: 20px;
+}
+
+.conteudo-ocorrencia {
+  gap: 120px;
+}
+
+.img-arvore {
+  width: 400px;
+}
+
+.ocorrencia-wraper {
+  padding: 0;
+}
+
+/* SECAO DICAS */
+
+.dicas {
+  height: 100vh;
+}
+
+.sec-dicas {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+}
+
+.titulo-secao-dicas {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.card-dicas {
+  padding: 30px;
+}
+
+/* SEÇÃO AJUDA */
+
+.ocorrencia-wrapper {
+  padding: 30px;
+}
+
+.ajuda-wrapper {
+  padding: 30px;
+}
+
+.rede-solidaria {
+  gap: 50px;
+}
+
+.img-tech {
+  width: 390px;
+}
+
+#solidaria{
+  gap: 120px;
+}
+
+}
+
+@media screen and (max-width: 825px) {
+
+/* HEADER */
+
+h1.titulo-header {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0 0 50px 0;
+}
+
+img.world {
+  display: none;
+}
+
+p.paragrafo-header {
+  font-size: 30px;
+  line-height: 30px;
+
+}
+
+/* SEÇÃO MAPA */
+
+.titulo-mapa {
+  margin-top: 0px;
+}
+
+.ocorrencia-wraper {
+  padding: 0 30px 70px 30px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+form {
+  width: 300px;
+  padding: 20px;
+}
+
+.img-arvore {
+  width: 350px;
+}
+
+div.conteudo-ocorrencia {
+  gap: 30px;
+}
+
+/* SEÇÃO AJUDA */
+
+.ocorrencia-wrapper {
+  padding: 30px;
+}
+
+.ajuda-wrapper {
+  padding: 30px;
+}
+
+.rede-solidaria {
+  gap: 50px;
+}
+
+.img-tech {
+  width: 390px;
+}
+
+#solidaria{
+  gap: 30px;
+}
+}
+
+@media screen and (max-width: 700px) {
+
+/* NAV-BAR */    
+
+  .nav {
+  padding: 10px 20px;
+  z-index: 2;
+}
+
+.logo-nav {
+  gap: 10px;
+}
+
+.logo-name {
+  font-size: 35px;
+}
+
+.logo-geoalert {
+  width: 40px;
+}
+
+.nav-links a {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.nav-links {
+  padding: 160px 30px;
+  height: 125vh;
+  right: 0px;
+  left: 0px;
+}
+
+/* HEADER */
+
+.header {
+    height: 105vh;
+}
+
+.world {
+  display: none;
+}
+
+.titulo-header {
+  margin: 30px 0 30px 0;
+}
+
+.paragrafo-header {
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.conteudo-header {
+  gap: 0px;
+}
+
+.circle-scroll {
+  width: 55px;
+  height: 55px;
+  margin-top: 80px;
+}
+
+.arrow {
+  width: 17px;
+  height: 17px;
+}
+
+/* SOLUCAO */
+
+
+.section-title {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.solution-steps {
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px 70px 30px;
+  margin-top: 300px;
+}
+
+/* SEÇÃO MAPA */
+
+.sessao-mapa {
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+.mapa-wraper {
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+section {
+  margin-bottom: 200px;
+}
+
+.titulo-mapa {
+  margin: 40px 0 40px 0;
+  font-size: 30px;
+}
+
+.titulo-form {
+  margin: 0 0 25px 0;
+  font-size: 30px;
+}
+
+.ocorrencia-wraper {
+  padding: 0 50px 70px 50px;
+}
+
+.titulo-ocorrencia {
+  margin: 30px 0 100px 0;
+  font-size: 30px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+form {
+  width: 300px;
+  padding: 20px;
+}
+
+.registrar-ocorrencia {
+  margin-bottom: 0;
+}
+
+/* SECAO DICAS */
+
+.dicas {
+  height: 120vh;
+}
+
+.sec-dicas {
+  padding: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+}
+
+.titulo-secao-dicas {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.img-arvore {
+  display: none;
+}
+    
+.img-tech {
+  display: none;
+}
+
+
+.card-dicas {
+  width: 354px;
+}
+
+}
+
+@media screen and (max-width: 415px) {
+  
+h1.titulo-header {
+  margin-top: 60px;
+  line-height: 32px;
+}
+
+p.paragrafo-header {
+  font-size: 17px;
+  line-height: 27px;
+}
+}
+
+@media screen and (max-width: 769px ) {
+  /* LOGIN */
+
+.login {
+  flex-direction: column;
+  padding: 0;
+}
+
+.login-geral {
+  flex-direction: column;
+}
+
+
+
+.container {
+        flex-direction: column;
+    }
+    
+    .left-panel {
+        padding: 0;
+    }
+    
+    .right-panel {
+        padding: 0;
+    }
+
+  img.logo-geo-branca {
+    width: 100px;
+  }
+
+  .illustration {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 385px) {
+
+/* NAV-BAR */    
+
+  .nav {
+  padding: 10px 20px;
+  gap: 30px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+.nav-links a {
+  font-size: 29px;
+}
+
+/* HEADER */
+
+.header {
+    height: 105vh;
+}
+
+.textos-header {
+  padding-top: 50px;
+}
+
+h1.titulo-header {
+  margin-top: 0;
+  line-height: 32px;
+}
+
+p.paragrafo-header {
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.circle-scroll {
+  width: 45px;
+  height: 45px;
+  margin-top: 25px;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+}
+
+/* SOLUCAO */
+
+.section-title {
+  font-size: 25px;
+  margin-top: 200px;
+}
+
+.solution-steps {
+  gap: 20px;
+  padding: 50px 0 0 0;
+}
+
+.step {
+  padding: 15px;
+}
+
+.icon {
+  width: 50px;
+}
+
+.container {
+  margin-top: 0px;
+}
+
+/* SEÇÃO MAPA */
+
+.sessao-mapa {
+  height: 110vh;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.titulo-mapa {
+  margin: 40px 0 40px 0;
+  font-size: 30px;
+}
+
+.titulo-form {
+  margin: 0 0 20px 0;
+  font-size: 25px;
+}
+
+.ocorrencia-wraper {
+  padding: 0 30px 70px 30px;
+  margin-top: 200px;
+}
+
+.mapa-wraper {
+  margin-top: 200px;
+}
+
+.titulo-ocorrencia {
+  margin: 30px 0 100px 0;
+  font-size: 25px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+.titulo-ocorrencia {
+  margin-bottom: 0;
+}
+
+.registrar-ocorrencia {
+  height: 100vh;
+}
+
+form {
+  width: 320px;
+}
+
+.img-arvore {
+  display: none;
+}
+    
+.img-tech {
+  display: none;
+}
+
+/* SECAO DICAS */
+
+.sec-dicas {
+  margin-top: 300px;
+  height: 160vh;
+  padding: 30px;
+}
+
+.dicas {
+  height: 120vh;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+  margin-top: 150px;
+}
+
+.titulo-secao-dicas {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.card-dicas {
+  width: 315px;
+  padding: 20px;
+}
+}
+
+
+
+/* FAQ */
+@media (max-width: 992px) {
+    .grid-faq {
+        grid-template-columns: 1fr;
+    }
+    
+    .barra-lateral-faq {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho .container {
+        flex-direction: column;
+    }
+    
+    .navegacao-principal ul {
+        margin-top: 20px;
+    }
+    
+    .navegacao-principal li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .cabecalho-faq h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navegacao-principal ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navegacao-principal li {
+        margin: 5px 10px;
+    }
+    
+    .conteudo-faq,
+    .barra-lateral-faq {
+        padding: 20px;
+    }
+    
+    .grid-servicos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* LOGIN */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .left-panel {
+        padding: 30px 20px;
+    }
+    
+    .right-panel {
+        padding: 30px 20px;
+    }
+}
+
 
 /* INTEGRANTES */
 
@@ -137,7 +1162,4 @@
     #mapa { height: 230px; min-height: 230px; }
     .dicas-container { flex-direction: column; }
 
-    .img-arvore {
-      display: none;
-    }
   }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Global Solution</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="fav icon" type="image/x-icon" href="/images/geoalert-logo.svg">
+</head>
+<body class="login">
+    <div class="login-geral">
+        <div class="left-panel">
+            <h2>Bem-vindo de volta!</h2>
+            <p>Entre na sua conta para acessar a GeoAlert.</p>
+            <div class="illustration">
+                <img  class="logo-geo-branca" src="images/logo-geoalert-branca.png" alt="Login Illustration">
+            </div>
+        </div>
+        
+        <div class="right-panel">
+            <div class="logo">
+                <i class="fas fa-lock"></i>
+                <h1>Acesse sua conta</h1>
+            </div>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" class="form-control" placeholder="Digite seu e-mail">
+                    </div>
+                    <div id="emailError" class="error-message">Por favor, insira um e-mail válido</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-key"></i>
+                        <input type="password" id="password" class="form-control" placeholder="Digite sua senha">
+                    </div>
+                    <div id="passwordError" class="error-message">A senha deve ter pelo menos 6 caracteres</div>
+                </div>
+                
+                <div class="options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Lembrar-me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                </div>
+                
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+            
+            <div class="divider">
+                <span>Ou continue com</span>
+            </div>
+            
+            <div class="social-login">
+                <div class="social-btn google">
+                    <img src="images/logo-google.svg" alt="">
+                </div>
+                <div class="social-btn facebook">
+                    <img src="images/logo-facebook.svg" alt="">
+                </div>
+                <div class="social-btn twitter">
+                    <img src="images/logo-x.svg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

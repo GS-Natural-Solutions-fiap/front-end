@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Ícones customizados para o mapa
 const icons = {
-    calor: L.icon({ iconUrl: 'imagens/calor.svg', iconSize: [30,30], iconAnchor: [15,30] }),
-    terremoto: L.icon({ iconUrl: 'imagens/terremoto.svg', iconSize: [30,30], iconAnchor: [15,30] }),
-    enchente: L.icon({ iconUrl: 'imagens/enchente.svg', iconSize: [30,30], iconAnchor: [15,30] }),
-    outro: L.icon({ iconUrl: 'imagens/outro.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    calor: L.icon({ iconUrl: 'images/calor.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    terremoto: L.icon({ iconUrl: 'images/terremoto.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    enchente: L.icon({ iconUrl: 'images/enchente.svg', iconSize: [30,30], iconAnchor: [15,30] }),
+    outro: L.icon({ iconUrl: 'images/outro.svg', iconSize: [30,30], iconAnchor: [15,30] }),
   };
   
   // Áreas de risco (simulação)
@@ -126,37 +126,8 @@ const icons = {
     return str.charAt(0).toUpperCase() + str.slice(1);
   }
   
-  // Dicas dinâmicas
-  const dicas = [
-    {
-      titulo: "Calor Extremo",
-      texto: "Hidrate-se sempre, evite exposição ao sol entre 10h e 16h, use roupas leves e busque ambientes ventilados."
-    },
-    {
-      titulo: "Terremoto",
-      texto: "Durante um tremor, proteja-se sob móveis resistentes, afaste-se de janelas e, após o evento, vá para áreas abertas e seguras."
-    },
-    {
-      titulo: "Enchente",
-      texto: "Não transite em áreas alagadas, desligue energia, busque abrigo elevado e siga orientações das autoridades."
-    },
-    {
-      titulo: "Solidariedade",
-      texto: "Ofereça ajuda a vizinhos e pessoas vulneráveis. Compartilhe informações e recursos de forma segura."
-    }
-  ];
-  function renderDicas() {
-    const container = document.getElementById('dicas-container');
-    container.innerHTML = "";
-    dicas.forEach(dica => {
-      const el = document.createElement('div');
-      el.className = 'dica';
-      el.innerHTML = `<h3>${dica.titulo}</h3><p>${dica.texto}</p>`;
-      container.appendChild(el);
-    });
-  }
-  renderDicas();
-  
+ 
+
   // Canal solidário
   const listaAjuda = [];
   function renderAjuda() {
@@ -187,3 +158,68 @@ const icons = {
     setTimeout(() => msgDiv.textContent = "", 4000);
   };
   renderAjuda();
+
+
+  // faaaaaaq //
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Funcionalidade do acordeão
+    const perguntasFaq = document.querySelectorAll('.pergunta-faq');
+    
+    perguntasFaq.forEach(pergunta => {
+        pergunta.addEventListener('click', () => {
+            const item = pergunta.parentElement;
+            const resposta = pergunta.nextElementSibling;
+            const icone = pergunta.querySelector('i');
+            
+            // Fecha todos os outros itens
+            document.querySelectorAll('.item-faq').forEach(outroItem => {
+                if (outroItem !== item) {
+                    outroItem.classList.remove('ativo');
+                    outroItem.querySelector('.resposta-faq').style.maxHeight = '0';
+                    outroItem.querySelector('i').style.transform = 'rotate(0deg)';
+                }
+            });
+            
+            // Alterna o item atual
+            item.classList.toggle('ativo');
+            
+            if (item.classList.contains('ativo')) {
+                resposta.style.maxHeight = resposta.scrollHeight + 'px';
+                icone.style.transform = 'rotate(180deg)';
+            } else {
+                resposta.style.maxHeight = '0';
+                icone.style.transform = 'rotate(0deg)';
+            }
+        });
+    });
+    
+    // Funcionalidade de busca
+    const campoBusca = document.getElementById('busca-faq');
+    
+    if (campoBusca) {
+        campoBusca.addEventListener('keyup', function() {
+            const termoBusca = this.value.toLowerCase();
+            const perguntas = document.querySelectorAll('.pergunta-faq span:first-child');
+            
+            perguntas.forEach(pergunta => {
+                const textoPergunta = pergunta.textContent.toLowerCase();
+                const itemFaq = pergunta.closest('.item-faq');
+                
+                if (textoPergunta.includes(termoBusca)) {
+                    itemFaq.style.display = '';
+                } else {
+                    itemFaq.style.display = 'none';
+                }
+            });
+        });
+    }
+    
+    // Inicializa o primeiro item como ativo
+    const primeiroItemFaq = document.querySelector('.item-faq');
+    if (primeiroItemFaq) {
+        primeiroItemFaq.classList.add('ativo');
+        const primeiraResposta = primeiroItemFaq.querySelector('.resposta-faq');
+        primeiraResposta.style.maxHeight = primeiraResposta.scrollHeight + 'px';
+    }
+});
