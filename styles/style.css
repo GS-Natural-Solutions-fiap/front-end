@@ -134,7 +134,7 @@ html, body {
 }
 
 .world {
-  width: 500px;
+  width: 600px;
 }
 
 .titulo-header {
@@ -151,11 +151,12 @@ html, body {
 
 .conteudo-header {
   display: flex;
-  gap: 500px;
+  gap: 300px;
 }
 
 .scroll {
   justify-items: center;
+
 }
 
 .circle-scroll {

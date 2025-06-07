@@ -64,52 +64,57 @@
 }
 }
 
-
-}
-
 @media screen and (max-width: 1601px) {
 
-  /* NAV */
-
-.nav-links {
-  padding: 200px 50px;
+   .nav-links a {
+  font-size: 35px;
 }
 
-/* HEADER */
-
-.header {
-  margin-bottom: 0;
+  .nav-links {
+  padding: 100px 50px;
 }
 
-h1.titulo-header {
-  margin: 40px 0 20px 0;
+ /* HEADER */ 
+
+ .header {
+  padding: 100px 0px;
+ }
+
+.titulo-header {
+  margin: 0 0 20px 0;
   font-size: 40px;
   line-height: 50px;
 }
 
-.world {
-  width: 500px;
-}
-
 .paragrafo-header {
   font-size: 30px;
-  line-height: 30px;
+  line-height: 35px;
 
 }
 
 .conteudo-header {
-  gap: 80px;
+  gap: 100px;
+}
+
+.world {
+  width: 380px;
 }
 
 .circle-scroll {
-  width: 65px;
-  height: 65px;
-  margin-top: 80px;
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
 }
 
 .arrow {
   width: 20px;
   height: 20px;
+}
+
+/* REGISTRAR OCORRENCIA */
+
+.conteudo-ocorrencia {
+  gap: 100px;
 }
 
 /* SEÇÃO MAPA */
