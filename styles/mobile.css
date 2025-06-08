@@ -443,6 +443,13 @@ form {
 
 @media screen and (max-width: 1025px) {
 
+  
+.integrantes::before {
+  opacity: 0.5;
+  height: 800vh;
+}
+
+
 /* NAV-BAR */    
 
 .nav-links a {
@@ -878,6 +885,10 @@ p.paragrafo-header {
 h2.titulo-ajuda {
   font-size: 30px;
 }
+
+.header::before {
+  opacity: 0.7;
+} 
 }
 
 @media screen and (max-width: 769px ) {
@@ -942,6 +953,10 @@ img.logo-geo-branca {
 .header {
     height: 105vh;
 }
+
+.header::before {
+  opacity: 0.6;
+} 
 
 .textos-header {
   padding-top: 50px;
@@ -1211,6 +1226,13 @@ form {
     align-items: center;
     font-size: 50px;
     margin: 0 0 30px 0;
+}
+}
+
+@media screen and (max-width: 415px) {
+  .integrantes::before {
+  opacity: 0.5;
+  height: 650vh;
 }
 }
 
