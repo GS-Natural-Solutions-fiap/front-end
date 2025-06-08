@@ -21,26 +21,27 @@ A estrutura do projeto foi cuidadosamente planejada para manter **clareza, organ
 
 📁 global-solution-geoalert/
 │
-├── 📁 js/ # Scripts JavaScript
-│ ├── script.js # Lógica do sistema
-│ └── faq.js # Lógica do faq
-│ └── login.js # Lógica do login
+├── 📁 js/               # Scripts JavaScript
+│   ├── script.js        # Lógica principal do sistema
+│   ├── faq.js           # Lógica da seção de FAQ
+│   └── login.js         # Lógica da tela de login
 │
-├── 📁 styles/ # Arquivos de estilo CSS
-│ ├── desktop.css # Estilo principal para telas grandes
-│ └── mobile.css # Estilo adaptado para dispositivos móveis
-│ └── reset.css # Estilo adaptado para padronizar a estilização
+├── 📁 styles/           # Arquivos de estilo CSS
+│   ├── desktop.css      # Estilo principal para telas grandes
+│   ├── mobile.css       # Estilo para dispositivos móveis
+│   └── reset.css        # Reset de estilos para padronização
 │
-├── 📁 images/ # Imagens utilizadas no site
-│ └── logo-geoalert.svg # Exemplo de imagem
+├── 📁 images/           # Imagens utilizadas no site
+│   └── logo-geoalert.svg
 │
-├── 📁 fonts/ # Fontes personalizadas
-│ └── gotham-ligth # Fonte utilizada no layout
+├── 📁 fonts/            # Fontes personalizadas
+│   └── gotham-light/
 │
-├── index.html # Página inicial do site (Home)
-├── login.html # Página de login de pacientes
-├── faq.html # Página de perguntas frequentes (FAQ)
-├── integrantes.html # Página com os integrantes do projeto
+├── index.html           # Página inicial (Home)
+├── login.html           # Página de login
+├── faq.html             # Página de perguntas frequentes (FAQ)
+└── integrantes.html     # Página com os integrantes do projeto
+
 
 
 ---
